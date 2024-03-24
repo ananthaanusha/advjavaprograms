@@ -1,0 +1,17 @@
+127.0.0.1 - - [06/Feb/2024:17:53:06 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:17:53:07 +0530] "GET /LoginPageApplication/ HTTP/1.1" 404 776
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:17:53:07 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:17:53:44 +0530] "GET /LoginPageApplication/login.html HTTP/1.1" 200 475
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:17:53:56 +0530] "GET /LoginPageApplication/LoginServlet?username=Anusha&Password=anusha%40123 HTTP/1.1" 500 1284
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:17:54:46 +0530] "GET /LoginPageApplication/LoginServlet?username=Anusha&Password=anusha%40123 HTTP/1.1" 500 1284
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:17:54:48 +0530] "GET /LoginPageApplication/LoginServlet?username=Anusha&Password=anusha%40123 HTTP/1.1" 200 61
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:17:55:01 +0530] "GET /LoginPageApplication/LoginServlet?username=Anusha&Password=SKSHSJJS HTTP/1.1" 200 54
+127.0.0.1 - - [06/Feb/2024:18:16:31 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:18:16:32 +0530] "GET /FirstMidLastNameApp/ HTTP/1.1" 404 775
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:18:16:39 +0530] "GET /FirstMidLastNameApp/name.html HTTP/1.1" 200 630
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:18:16:54 +0530] "GET /FirstMidLastNameApp/FullnameServlet?firstname=Anusha&middlename=Reddy&lastname=Anantha HTTP/1.1" 200 50
+127.0.0.1 - - [06/Feb/2024:21:40:06 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:21:40:26 +0530] "GET /FirstMidLastNameApp/ HTTP/1.1" 404 775
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:21:40:27 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:21:41:21 +0530] "GET /FirstMidLastNameApp/name.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Feb/2024:21:41:39 +0530] "GET /FirstMidLastNameApp/FullnameServlet?firstname=anusha&middlename=reddy&lastname=anantha HTTP/1.1" 200 50

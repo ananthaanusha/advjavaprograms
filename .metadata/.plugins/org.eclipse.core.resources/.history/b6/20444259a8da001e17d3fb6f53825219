@@ -1,0 +1,31 @@
+package com.sathya;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class ProductDao {
+	public int save(Product product) throws SQLException, ClassNotFoundException {
+		int result=0;
+		try(Connection connection=DbConnecton.createConnection();
+				PreparedStatement preparedStatement=connection.prepareStatement("insert into Product_data values(?,?,?,?,?,?,?,?)"))
+		{
+			preparedStatement.setString(1, product.getProId());
+			preparedStatement.setString(2, product.getProName());
+			preparedStatement.setDouble(3, product.getProPrice());
+			preparedStatement.setString(4, product.getProBrand());
+			preparedStatement.setString(5, product.getProMadeIn());
+			preparedStatement.setDate(6, product.getProMDate());
+			preparedStatement.setDate(7, product.getProEDate());
+			preparedStatement.setBinaryStream(8, product.getProImage());
+			
+			result=preparedStatement.executeUpdate();
+			
+			
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+}

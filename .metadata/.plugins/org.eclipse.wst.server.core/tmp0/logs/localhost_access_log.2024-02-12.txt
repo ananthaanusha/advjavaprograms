@@ -1,0 +1,5 @@
+127.0.0.1 - - [12/Feb/2024:17:46:59 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:47:00 +0530] "GET /RegistrationApplication/ HTTP/1.1" 404 779
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:47:00 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:47:19 +0530] "GET /RegistrationApplication/register.html HTTP/1.1" 200 1782
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:48:32 +0530] "GET /RegistrationApplication/RegisterServlet?username=anusha&password=anusha&number=2198268376&email=anusha%40gmail.com&gender=Female&dob=2001-10-15&qualification=BCA&qualification=MCA&country=India&laguage=Telugu&laguage=Hindi&laguage=English&comments=%09hi+hello+welcome+to+adv+java+classes%09%09%09 HTTP/1.1" 200 318
